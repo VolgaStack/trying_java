@@ -1,4 +1,4 @@
-package Calculator;
+package main;
 
 /**
  *  Класс калькулятор выполняет операции над числами типа double

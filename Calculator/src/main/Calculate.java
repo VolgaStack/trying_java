@@ -1,4 +1,4 @@
-package Calculator;
+package main;
 
 /**
  *  простой калькулятор для командной строки

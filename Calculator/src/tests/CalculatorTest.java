@@ -1,6 +1,6 @@
-package Calculator.Tests;
+package tests;
 
-import Calculator.Calculator;
+import main.Calculator;
 
 import static org.junit.Assert.assertEquals;
 
