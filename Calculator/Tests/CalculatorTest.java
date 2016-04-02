@@ -1,16 +1,18 @@
 package Calculator.Tests;
 
+import Calculator.Calculator;
+
 import static org.junit.Assert.assertEquals;
 
 /**
  * Тестируем калькулятор
  */
 public class CalculatorTest {
-    private Calculator.Calculate.Calculator calc;
+    private Calculator calc;
 
     @org.junit.Before
     public void setUp() throws Exception {
-        this.calc = new Calculator.Calculate.Calculator();
+        this.calc = new Calculator();
     }
 
     @org.junit.Test
@@ -46,7 +48,7 @@ public class CalculatorTest {
 
     @org.junit.Test
     public void getLastResult() throws Exception {
-        Calculator.Calculate.Calculator newCalc = new Calculator.Calculate.Calculator();
+        Calculator newCalc = new Calculator();
         assertEquals(0, newCalc.getLastResult(), 0);
     }
 }
